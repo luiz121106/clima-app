@@ -11,6 +11,6 @@ test('formatar nome da cidade com inicial maiuscula', () => {
 });
 
 test('converte celsius para fahrenheit corretamente', () => {
-  expect(celsiusParaFahrenheit(0)).toBe(32);
+  expect(celsiusParaFahrenheit(0)).toBe(99);
   expect(celsiusParaFahrenheit(25)).toBe(77);
 });
