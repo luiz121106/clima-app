@@ -16,10 +16,10 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20
 
       - name: Instalar dependencias
-        run: npm ci || npm install
+        run: npm install
 
       - name: Rodar os testes
-        run: npx jest
+        run: npm test
